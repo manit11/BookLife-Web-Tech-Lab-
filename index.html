@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+
+<div class="topnav container">
+    <div class="row app-name">
+        <p align="center">Book Life</p>
+    </div>
+    <div class="row">
+        <p class="app-name" id="tag-name" align="center">A great place to be stranded</p>
+    </div>
+    <div class="row">
+    <a class="active" href="#Home">Home</a>
+    <a href="#fic">Fiction</a>
+    <a href="#non-fic">Non-Fiction</a>
+    <a href="#sci-fi">Sci-Fi</a>
+    <a href="#fic">Literature</a>
+    <a href="#non-fic">New Releases</a>
+    <a href="#sci-fi">Best Sellers</a>
+        <div class="col-3">
+        </div>
+        <div align="right">
+            <button class="btn-cus btn btn-link" href="#0" data-toggle="modal" data-target="#logIn">Log in</button>
+            <button class="btn-cus btn btn-link" href="#0" data-toggle="modal" data-target="#signUp">Sign up</button>
+
+            <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group"  align="left">
+                                    <label for="user-name" class="form-control-label">Username:</label>
+                                    <input type="text" class="form-control" id="user-name" placeholder="Pick a username">
+                                </div>
+                                <div class="form-group"  align="left">
+                                    <label for="user-password" class="form-control-label">Password:</label>
+                                    <input type="password" class="form-control" id="user-password" placeholder="Create a password">
+                                </div>
+                                <div class="form-group" align="left">
+                                    <label for="confirm-password" class="form-control-label">Password:</label>
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Re-enter password">
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-primary" style="margin-left:75% ">Next</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div align="center">
+                            <span style=" margin-left: 45px;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></span>
+                            <button type="button" class="btn btn-primary" style=" width: 60%; margin-bottom: 10px; " >
+                                <span>Login with facebook</span>
+                            </button>
+                        </div>
+                        <div  align="center">
+                            <span style=" margin-left: 45px;"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></span>
+                            <button type="button" class="btn btn-primary" style=" width: 60%; margin-bottom: 10px" >
+                                <span>Login with gmail</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="logIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Log Up</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group" align="left">
+                                    <label for="username" class="form-control-label">Username:</label>
+                                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                </div>
+                                <div class="form-group" align="left">
+                                    <label for="userpassword" class="form-control-label">Password:</label>
+                                    <input type="password" class="form-control" id="userpassword" placeholder="Enter password">
+                                </div>
+                                <div class="form-group" style="margin-left: 75%">
+                                    <button type="button" class="btn btn-primary" style="alignment: right;">Next</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div align="center">
+                            <span style=" margin-left: 45px;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></span>
+                            <button type="button" class="btn btn-primary" style=" width: 60%; margin-bottom: 10px; " >
+                                <span>Login with facebook</span>
+                            </button>
+                        </div>
+                        <div align="center">
+                            <span style=" margin-left: 45px;"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></span>
+                            <button type="button" class="btn btn-primary" style=" width: 60%; margin-bottom: 10px" >
+                                <span>Login with gmail</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+</div>
+<div class="ss" align="center">
+    <img src="ss2.jpg" >
+</div>
+<br>
+<center><h1>Best Sellers</h1></center>
+
+<div align="center" style="height:250px; margin: 20px">
+    <img src="bs1.jpeg" align="right" style="float:right" height="320" width="320" />
+    <img src="bs2.jpg" alt="" align="left" style="float:left" height="320" width="320" />
+    <div id="content" align="center">
+        <img src="bs3.jpg" alt="" align="center" height="320" width="320" />
+    </div>
+</div>
+
+
+<div class="quote"  >
+    <h4>Quote of the day:</h4> <br> <blockquote><b>"It sounds plausible enough tonight, but wait until tomorrow. Wait for the common sense of the morning."</b></blockquote><span style="text-align: right"> -The Time Machine</span>
+</div>
+
+<center><h1 style="margin-top: 20px;">New Releases</h1></center>
+
+<div align="center" style="height:250px; margin: 20px">
+    <img src="nr1.jpeg" align="right" style="float:right" height="320" width="320" />
+    <img src="nr2.jpeg" alt="" align="left" style="float:left" height="320" width="320" />
+    <div id="content1" align="center">
+        <img src="nr3.png" alt="" align="center" height="320" width="320" />
+    </div>
+</div>
+
+<div class="quote" style="margin-top: 100px;margin-left: 30px"><h3>
+    Author of the day:</h3>
+</h3>
+</div>
+<div class="author row" >
+
+    <div class="col-3">
+        <img src="a1.jpg" style="max-width: 90%;margin-left: 30px">
+    </div>
+    <div class="col-8" style="margin-right: 20px ">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Jane Austen</th>
+            </tr>
+            <tr>
+                <td>Born</td>
+                <td>16 December 1775, Steventon, United Kingdom</td>
+            </tr>
+            <tr>
+                <td>Died</td>
+                <td>18 July 1817, Winchester, United Kingdom</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Popular Works: </td>
+                <td>Pride and Prejudice</td>
+            </tr>
+            <tr>
+                <td>Emma</td>
+            </tr>
+            <tr>
+                <td>Persuasion</td>
+            </tr>
+            <tr>
+                <td>Sense and Sensibilty</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="footer  row">
+    <div class="col-6" style="float: left">
+    <p style="color: white">
+        Contact Info:
+    </p>
+    <ul style="color: white">
+        <li>+91-8149447415</li>
+        <li>thebooklife@gmail.com</li>
+        <li>www.twitter.com/thebooklife</li>
+    </ul>
+    </div>
+    <div class="col-6" style="float: right;">
+        <p style="color: white">Regional Centres: </p>
+        <ol style="color: white">
+            <li>Delhi</li>
+            <li>Mumbai</li>
+            <li>Bangaluru</li>
+        </ol>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>
+
